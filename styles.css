@@ -1,0 +1,85 @@
+.navbar {
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  background-color: black;
+}
+
+#logo {
+  align-self: center;
+  background-color: tan;
+  margin-left: 5em;
+}
+
+body {
+  margin: 0;
+}
+.links {
+  display: flex;
+  margin-left: auto;
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  gap: 2em;
+  margin-right: 5em;
+}
+
+.teemo {
+  width: 40vw;
+}
+
+.main-flex {
+  display: flex;
+  gap: 15vw;
+  align-items: center;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  background-color: brown;
+  padding: 3vw 2vw 3vw 2vw;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  display: flex;
+  width: 28vw;
+}
+
+.card {
+  background-color: gray;
+  overflow: hidden;
+  width: 50vw;
+  height: 25vw;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.proj {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1vw;
+  margin-right: 1vw;
+}
+
+.desc {
+  font-size: 2vw;
+  text-align: center;
+}
+
+.link {
+  color: white;
+}

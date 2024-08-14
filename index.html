@@ -1,30 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav class="navbar">
-      <h1 class="logo"><a href="index.html">personal website</a></h1>
-      <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <nav class="navbar">
+        <div id="logo">
+          <h1 class="logo"><a href="index.html">Home</a></h1>
+        </div>
+        <div class="links">
+          <ul class="nav-list">
+            <li><a class="link" href="index.html">Home</a></li>
+            <li><a class="link" href="portfolio.html">Portfolio</a></li>
+            <li><a class="link" href="resume.html">Resume</a></li>
+            <li><a class="link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <main>
-      <h1 class="page-title">hello world!</h1>
-      <div class="about">
-        <div class="about-image">
-          <img src="teemo.jpeg" alt="<Picture of teemo>" />
+      <div class="main-flex">
+        <h1 class="page-title">Elton Su</h1>
+        <div class="about">
+          <div class="about-image">
+            <img class="teemo" src="teemo.jpeg" alt="Picture of Teemo" />
+          </div>
         </div>
         <div class="about-text">
-          <p>
-            Hello. My name is <strong>Elton Su</strong> and I am gonna be
-            <em>OP CS student</em>
-          </p>
+          <p>Hello, I am going to be an <em>OP CS student</em>.</p>
           <p>I'm going to attend UCSC.</p>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="row">
+          <div class="card">
+            <a class="proj" href="project1.html">
+              <img class="image" src="teemo.jpeg" alt="<Picture of teemo>" />
+            </a>
+            <p class="desc">Leauge of Legends</p>
+          </div>
+          <div class="card">
+            <a class="proj" href="projectt2.html">
+              <img class="image" src="teemo.jpeg" alt="<Picture of teemo>" />
+            </a>
+            <p class="desc">Valorant</p>
+          </div>
+          <div class="card">
+            <a class="proj" href="project3.html">
+              <img class="image" src="teemo.jpeg" alt="<Picture of teemo>" />
+            </a>
+            <p class="desc">Roblox</p>
+          </div>
         </div>
       </div>
     </main>
